@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20%;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.testName {
+  font-style: italic;
+}
+
+.testForm {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.testForm ul {
+}
+.testForm li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+.testForm input {
+  border: solid 1px black;
+  margin-left: 15px;
+}
+.testForm button {
+  align-self: center;
+  margin-top: 30px;
+  background: #3b9b60;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+}
+
+.warning {
+  color: red;
+  padding-top: 20px;
+}
